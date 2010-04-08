@@ -7,6 +7,10 @@ ADMINS = (
      ('Peter', 'peter@emlprime.com'),
 )
 
+import os
+CURRENT_PATH = os.path.dirname(os.path.realpath(__file__))
+PROJECT_NAME = "thealternativemedicinecabinet"
+
 MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -35,17 +39,17 @@ USE_I18N = True
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = CURRENT_PATH + '/site_media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
-MEDIA_URL = ''
+MEDIA_URL = '/site_media/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
 # Examples: "http://foo.com/media/", "/media/".
-ADMIN_MEDIA_PREFIX = '/media/'
+ADMIN_MEDIA_PREFIX = '/admin_media/'
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 'd89w_s&ky+-=2%ly-sz*%lg_+df7^=*@)_99_5k=0!njk#g)(k'
@@ -63,16 +67,20 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
 )
 
-ROOT_URLCONF = 'thealternativemedicinecabinet.urls'
+ROOT_URLCONF = '%(PROJECT_NAME)s.urls' % {'PROJECT_NAME': PROJECT_NAME }
 
 TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
+    CURRENT_PATH + "/templates/"
 )
+
+
+TEMPLATE_CONTEXT_PROCESSORS = ("django.core.context_processors.auth",
+                               "django.core.context_processors.debug",
+                               "django.core.context_processors.media")
 
 INSTALLED_APPS = (
     'django.contrib.auth',
+    'django.contrib.admin',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
