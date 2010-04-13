@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="dvd_header" class="grid_4 prefix_2">
+  <img src="/site_media/images/dvd_cover.jpg" alt=" " />
+</div>
+<div id="dvd_info" class="grid_10">
+<h1>DVD Contents:</h1>
+<ul class="dvd_content">
+<li>Anatomy</li>
+<li>Areas to Avoid</li>
+<li>Hand Positions</li>
+<li>Tools</li>
+<li>Back with Audio Cues</li>
+<li>Back with Visual Cues</li>
+<li>Neck</li>
+<li>Special Features:</li>
+<li>Massage Terminology</li>
+<li>Massage Modalities</li>
+<li>Using a Bed or the Floor</li>
+<li>A Quiz to Test Your Knowledge</li>
+
+</ul>
+  <p>Made for the beginner, this DVD teaches safe and effective massage for home health.  Follow along with Kathy Gruver, a Certified Medical Massage Therapist, to learn a comprehensive back and neck massage in the comfort of your own home.</p>
+<p>Already massage your loved ones? Hone your technique and protect your hands.</p>
+<p>Always wanted to learn massage?</p>
+<p>Either way, this DVD is for you!</p>
+
+	<h2>24.99 + Tax</h2>
+
+</div>
+<div class="clear">
+  &nbsp;
+</div>
+
+  <div id="more_dvd_info" class="grid_10">
+  <p>To order by phone, please call (805) 680-1984.<br/>Credit cards accepted over the phone.</p>
+</div>
+
+<div id="clear">
+  &nbsp;
+</div>
+
+
+<div id="behind_the_scenes" class="grid_10">
+
+<a href="http://www.bigblendmagazine.com/Body-Mind-Spirit/Therapeutic-Massage.htm" rel="external"><h2>Read the review from Big Blend Magazine</h2></a>
+  &nbsp;
+
+<a href="http://www.youtube.com/watch?v=yDVvctSDcPo" rel="external"><h2>Watch my commercial</h2></a>
+<div id="clear">
+  &nbsp;
+</div>
+
+<h2>What people are saying about Therapeutic Massage at Home:</h2>
+  &nbsp;
+<ul>
+  <li class="faq"><p>The instruction was easy to understand and detailed without being monotonous; diction was clear, distinct and expressive; music was original and soothing; and the organization was good, I particularly liked the 'with' and 'without' instruction sections. I can't wait to get home and try it. </p> <p>~ Steven B, ND</p></li>
+  <li class="faq"><p>I LOVE this DVD!</p> <p>~ Marla, Life Coach</p></li>
+
+  {% for testimonial in testimonials %}
+
+  <li class="faq"><p>{{testimonial.description}}</p> <p>~ {{testimonial.source}}</p></li>
+
+  {% endfor %}
+
+</ul>
+
+</div>
+
+
+{% endblock %}

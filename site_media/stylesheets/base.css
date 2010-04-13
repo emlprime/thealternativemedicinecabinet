@@ -5,6 +5,16 @@
     padding:0;
 }
 
+a:link, a:visited, a:active
+{
+  color: #cccccc;
+}
+
+a:hover
+{
+ color: white;
+}
+
 h1
 {
   margin: 1em;
@@ -12,11 +22,27 @@ h1
   font-size: 20px;
 }
 
+#navigation
+{
+  height: 348px;
+  background-image: url("/site_media/images/navigation.png");
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 2em;
+}
+
+#navigation li
+{
+  margin: 1.8em;
+  margin-left: 1em;
+}
+
 #content
 {
     text-align: center;
 }
-
 
 body
 {
@@ -26,8 +52,17 @@ body
     line-height: 18px;
 }
 
+h3
+{
+  margin: 0.5em;
+}
 
 h2 {
     font-size: 18px;
     font-weight: bold;
+}
+
+#resume p, #resume h2, #resume h1
+{
+  margin-bottom: 1em;
 }
