@@ -1,8 +1,8 @@
 
 *
 {
-    margin:0;
-    padding:0;
+  margin:0;
+  padding:0;
 }
 
 a:link, a:visited, a:active
@@ -13,6 +13,12 @@ a:link, a:visited, a:active
 a:hover
 {
  color: white;
+}
+
+#page
+{
+  margin-top: 2em;
+  padding-top: 0.5em;
 }
 
 h1
@@ -41,15 +47,29 @@ h1
 
 #content
 {
-    text-align: center;
+  text-align: center;
+  background-color: white;
+  border-right: 1px solid #333333;
+  border-left: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 1em;
+}
+
+#header
+{
+  background-color: white;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+  border-left: 2px solid #333333;
 }
 
 body
 {
-    font-family: trebuchet ms,modern;
-    font-size: 15px;
-    color: #333333;
-    line-height: 18px;
+  font-family: trebuchet ms,modern;
+  font-size: 15px;
+  color: #333333;
+  line-height: 18px;
+  background-image:url("/site_media/images/tiles.jpg");
 }
 
 h3
@@ -58,11 +78,69 @@ h3
 }
 
 h2 {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#resume
+{
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 #resume p, #resume h2, #resume h1
 {
   margin-bottom: 1em;
+}
+
+#dvd_header img
+{
+  border-top: 2px solid #333333;
+  border-right: 2px solid #333333;
+  border-left: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+}
+
+#dvd_info li, #dvd_info p
+{
+  margin: 0.3em;
+}
+
+.testimonial
+{
+  padding-bottom: 1em;
+}
+
+#dvd_info ul
+{
+  margin-bottom: 1em;
+}
+
+#dvd_info a:link, #dvd_info a:active, #dvd_info a:visited
+{
+  color: #999999;
+} 
+
+#dvd_info a:hover
+{
+  color: black;
+} 
+
+#dvd_info h2
+{
+  margin: 0.5em;
+  text-decoration: underline
+}
+
+.book_contents li
+{
+  font-size: 12px;
+  margin: 0.5em;
+  list-style-type: circle;
+}
+
+#book_header
+{
+  margin-right: 0.5em;
+  margin-left: 0.7em;
 }

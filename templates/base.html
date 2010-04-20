@@ -18,22 +18,24 @@
   </head>
   <body>
     <div class="container_16">
-      <div id="navigation" class="grid_6">
-	<ul>
-	  <li><p><a href="/">Home</a></p></li>
-	  <li><p><a href="/background/">Kathy's Background</a></p></li>
-	  <li><p><a href="/speaking/">Speaking</a></p></li>
-	  <li><p><a href="/health_tips/">Health Tips</a></p></li>
-	  <li><p><a href="/books/">Books</a></p></li>
-	  <li><p><a href="/dvds/">DVDs</a></p></li>
-	</ul>
-      </div>
-      <div id="header" class="grid_10">
-	<h1>The Alternative Medicine Cabinet</h1>
-      </div>
-      <div id="content" class="grid_10">
-	{% block content %}
-	{% endblock %}
+      <div id="page">
+	<div id="navigation" class="grid_6 omega">
+	  <ul>
+	    <li><p><a href="/">Home</a></p></li>
+	    <li><p><a href="/background/">Kathy's Background</a></p></li>
+	    <li><p><a href="/speaking/">Speaking</a></p></li>
+	    <li><p><a href="/health_tips/">Health Tips</a></p></li>
+	    <li><p><a href="/books/">Books</a></p></li>
+	    <li><p><a href="/dvds/">DVDs</a></p></li>
+	  </ul>
+	</div>
+	<div id="header" class="grid_10">
+	  <h1>The Alternative Medicine Cabinet</h1>
+	</div>
+	<div id="content" class="grid_10">
+	  {% block content %}
+	  {% endblock %}
+	</div>
       </div>
     </div>
   </body>
