@@ -2,6 +2,15 @@
 
 {% block content %}
 
-This is the health tips page.
+<h2>Health Tips from Kathy Gruver</h2>
+
+<ul id="health_tips">
+{% for tip in health_tip %}
+<li>
+  <h4>{{ tip.title }}</h4>
+  <p>{{ tip.tip }}</p>
+</li>
+{% endfor %}
+</ul>
 
 {% endblock %}
