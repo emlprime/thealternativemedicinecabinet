@@ -118,7 +118,7 @@ h2 {
 
 #dvd_info a:link, #dvd_info a:active, #dvd_info a:visited
 {
-  color: #999999;
+  color: #333333;
 } 
 
 #dvd_info a:hover
@@ -153,4 +153,14 @@ h2 {
 #health_tips p
 {
   margin-top: 0.5em;
+}
+
+#book_link a
+{
+  color: #333333;
+}
+
+#book_link, #dvd_link
+{
+  margin-bottom: 1em;
 }
