@@ -164,3 +164,21 @@ h2 {
 {
   margin-bottom: 1em;
 }
+
+#home_page p, #speaking p, #speaking h4
+{
+  margin: 1em;
+}
+
+#home_page a, #speaking a
+{
+  color: black;
+}
+
+#speaking ul
+{
+  list-style-type: circle;
+  width: 400px;
+  text-align: left;
+  margin-left: 120px;
+}
