@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Recommended Resources</h2>
+
+<ul class="content_list">
+  
+  {% for object in recommended_resources %}
+
+  <li>
+    {% if object.link %}
+    <a href="{{ object.link }}">
+    {% endif %}
+
+      <h4>{{ object.title }}</h4>
+      <p>{{ object.site }}</p>
+    
+    {% if object.link %}
+    </a>
+    {% endif %}
+
+
+    <p>{{ object.description }}</p>
+  
+  </li>
+
+  {% endfor %}
+  
+</ul>
+
+{% endblock %}

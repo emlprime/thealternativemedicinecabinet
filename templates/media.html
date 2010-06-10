@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Articles Featuring Kathy Gruver</h2>
+
+<ul class="content_list">
+  
+  {% for object in media_list %}
+
+  <li>
+    
+    {% if object.link %}
+    <a href="{{ object.link }}">
+    {% endif %}
+
+      <h4>{{ object.title }}</h4>
+    
+    {% if object.link %}
+    </a>
+    {% endif %}
+    
+    <p>{{ object.description }}</p>
+  
+  </li>
+
+  {% endfor %}
+  
+</ul>
+
+{% endblock %}

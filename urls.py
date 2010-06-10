@@ -14,7 +14,10 @@ urlpatterns = patterns('django.views.generic.simple',
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )
 urlpatterns += patterns('thealternativemedicinecabinet.content.views',
-    (r'^health_tips', 'health_tips'),
+    (r'^health_tips/$', 'health_tips'),
+    (r'^media/$', 'media'),
+    (r'^recommended_resources/$', 'recommended_resources'),
+    (r'^upcoming_events/$', 'upcoming_events'),
 )
 
 urlpatterns += patterns('',
