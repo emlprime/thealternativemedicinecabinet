@@ -28,6 +28,24 @@ h1
   font-size: 20px;
 }
 
+#footer span, #footer a
+{
+  color: black;
+  font-weight: bold;
+  margin: 2em;
+}
+
+#footer
+{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+#footer a:hover
+{
+  color: #666666;
+}
+
 #navigation
 {
   height: 348px;
