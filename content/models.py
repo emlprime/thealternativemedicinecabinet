@@ -1,5 +1,14 @@
 from django.db import models
 
+
+class Email(models.Model):
+    """ Model for the emails submitted to be added to the mailing list
+    """
+    email = models.EmailField()
+
+    def __unicode__(self):
+        return self.email
+
 class HealthTip(models.Model):
     """ the logic for the admin-editable health tips 
     """

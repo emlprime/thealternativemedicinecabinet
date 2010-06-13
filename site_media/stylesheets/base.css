@@ -222,3 +222,29 @@ h2 {
   text-align: left;
   margin-left: 120px;
 }
+
+#newsletter p, #contact
+{
+  font-size: 11px;
+  margin: 0.5em;
+}
+
+#newsletter, #contact
+{
+  margin-top: 1em;
+}
+
+#contact
+{
+  font-weight: bold;
+}
+
+#contact a
+{
+ color: black;
+}
+
+#contact a:hover
+{
+  color:#666666;
+}

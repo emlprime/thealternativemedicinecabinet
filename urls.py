@@ -15,6 +15,7 @@ urlpatterns = patterns('django.views.generic.simple',
 )
 urlpatterns += patterns('thealternativemedicinecabinet.content.views',
     (r'^health_tips/$', 'health_tips'),
+    (r'^email/add/$','email_add'),
     (r'^media/$', 'media'),
     (r'^recommended_resources/$', 'recommended_resources'),
     (r'^upcoming_events/$', 'upcoming_events'),

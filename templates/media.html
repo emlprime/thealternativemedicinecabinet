@@ -3,7 +3,7 @@
 {% block content %}
 
 <h2>Kathy Gruver in the Media</h2>
-
+<div class="grid_6 alpha">
 <ul class="content_list">
   
   {% for object in media_list %}
@@ -27,5 +27,21 @@
   {% endfor %}
   
 </ul>
-
+</div>
+<div class="grid_4 omega">
+<div id="newsletter">
+  <p>Sign up here to receive Kathy Gruver's bimonthly newsletter.  We provide practical tips for better health with articles, breaking health news and product recommendations. We respect your privacy and will never sell or give out your information.</p>
+  <form id="email_form" method="post" action="/email/add/">
+    <fieldset>
+      <p><label for="id_email">Email:</label> {{ email_form.email }}</p>
+      <input type="submit" name="submit" value="Submit Email" id="submit_email" />
+    </fieldset>
+  </form>
+</div>
+<div id="contact">
+<p>To contact for an interview or engagement:</p>  
+<p>P: 805-680-1984</p>
+<a href="mailto:healingcirclemassage@hotmail.com"><p>E: healingcirclemassage@hotmail.com</p></a>
+</div>
+</div>
 {% endblock %}
