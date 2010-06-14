@@ -223,15 +223,22 @@ h2 {
   margin-left: 120px;
 }
 
-#newsletter p, #contact
+#newsletter p, #contact, #photo_downloads p
 {
   font-size: 11px;
   margin: 0.5em;
 }
 
-#newsletter, #contact
+#newsletter, #contact, #photo_downloads
 {
   margin-top: 1em;
+}
+
+#photo_downloads img
+{
+  border: 1px solid black;
+  height: 200px;
+  margin: 0.5em;
 }
 
 #contact
@@ -247,4 +254,10 @@ h2 {
 #contact a:hover
 {
   color:#666666;
+}
+
+#social_network_buttons img
+{
+  height: 30px;
+  margin-top: 1em;
 }
