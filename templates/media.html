@@ -23,15 +23,12 @@
     
     {% if object.link %}
     <a href="{{ object.link }}" rel="external">
-    {% endif %}
-
+      {% endif %}
       <h4>{{ object.title }}</h4>
-    
-    {% if object.link %}
+      <p>{{ object.description }}</p>
+      {% if object.link %}
     </a>
     {% endif %}
-    
-    <p>{{ object.description }}</p>
   
   </li>
 
