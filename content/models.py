@@ -65,3 +65,16 @@ class Media(models.Model):
 
     def __unicode__(self):
         return self.title
+
+
+class Review(models.Model):
+    description = models.TextField()
+    source = models.CharField(max_length = 255)
+    date = models.DateField()
+
+    class Meta:
+        ordering = ['-date']
+        get_latest_by = "date"
+
+    def __unicode__(self):
+        return self.source

@@ -1,7 +1,7 @@
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 
-from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, Media, RecommendedResource, Email
+from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, Media, RecommendedResource, Email, Review
 from thealternativemedicinecabinet.content.forms import EmailForm
 
 def health_tips(request):
@@ -33,6 +33,7 @@ def media(request):
     """
     template = "media.html"
     media_list = Media.objects.all()
+    review_list = Review.objects.all()
     email_form=EmailForm()
     context=locals()
     return render_to_response(template, context, context_instance=RequestContext(request))

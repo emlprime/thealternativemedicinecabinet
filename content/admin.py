@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, RecommendedResource, Media, Email
+from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, RecommendedResource, Media, Email, Review
 
 class HealthTipAdmin(admin.ModelAdmin):
     pass
@@ -17,6 +17,10 @@ admin.site.register(RecommendedResource, RecommendedResourceAdmin)
 class MediaAdmin(admin.ModelAdmin):
     pass
 admin.site.register(Media, MediaAdmin)
+
+class ReviewAdmin(admin.ModelAdmin):
+    pass
+admin.site.register(Review, ReviewAdmin)
 
 class EmailAdmin(admin.ModelAdmin):
     pass

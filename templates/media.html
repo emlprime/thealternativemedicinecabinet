@@ -38,6 +38,13 @@
   {% endfor %}
   
 </ul>
+<h3>Reviews of The Alternative Medicine Cabinet</h3>
+<ul class="content_list">
+  {% for object in review_list %}
+  <li class="reviews"><p>{{object.description}}</p> <p>~ {{object.source}}</p></li>
+  {% endfor %}
+</ul>
+
 </div>
 <div class="grid_4 omega">
 <div id="newsletter">
