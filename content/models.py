@@ -46,6 +46,11 @@ class RecommendedResource(models.Model):
     site = models.CharField(max_length=255)
     link = models.CharField(max_length=255)
     description = models.TextField()
+    date = models.DateField()
+
+    class Meta:
+        ordering = ['-date']
+        get_latest_by = "date"
 
     def __unicode__(self):
         return self.title
