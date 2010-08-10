@@ -37,6 +37,12 @@
 
 <p>Please contact Kathy to view lecture footage. 805-680-1984</p>
 
+<h4>Testimonials</h4>
+<ul class="speaking_review">
+  {% for object in reviews %}
+  <li class="reviews"><p>{{object.description}}</p> <p>~ {{object.source}}</p></li>
+  {% endfor %}
+</ul>
 </div>
 
 {% endblock %}

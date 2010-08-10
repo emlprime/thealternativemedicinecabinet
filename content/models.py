@@ -83,3 +83,15 @@ class Review(models.Model):
 
     def __unicode__(self):
         return self.source
+
+class SpeakingReview(models.Model):
+    description = models.TextField()
+    source = models.CharField(max_length = 255)
+    date = models.DateField()
+
+    class Meta:
+        ordering = ['-date']
+        get_latest_by = "date"
+
+    def __unicode__(self):
+        return self.source

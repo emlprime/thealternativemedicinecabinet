@@ -1,8 +1,16 @@
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 
-from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, Media, RecommendedResource, Email, Review
+from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, Media, RecommendedResource, Email, Review, SpeakingReview
 from thealternativemedicinecabinet.content.forms import EmailForm
+
+def speaking(request):
+    """ Submits Speaking Reviews to the URL
+    """
+    template="speaking.html"
+    reviews = SpeakingReview.objects.all()
+    context=locals()
+    return render_to_response(template, context, context_instance=RequestContext(request))
 
 def health_tips(request):
     """Submits the home page information to the URL

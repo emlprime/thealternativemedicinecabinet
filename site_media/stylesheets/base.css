@@ -267,3 +267,17 @@ h2 {
   height: 30px;
   margin-top: 1em;
 }
+
+.speaking_review li
+{
+  list-style-type: none;
+  text-align: center;
+  margin-right: 5em;
+  padding: 0px;
+}
+
+.speaking_review p
+{
+  line-height: 14px;
+  font-size: 14px;
+}
