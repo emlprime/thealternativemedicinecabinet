@@ -95,3 +95,16 @@ class SpeakingReview(models.Model):
 
     def __unicode__(self):
         return self.source
+
+class ConsultText(models.Model):
+    header = models.CharField(max_length=255)
+    text = models.TextField()
+    date = models.DateField()
+
+    class Meta:
+        ordering = ['-date']
+        get_latest_by = "date"
+
+    def __unicode__(self):
+        return str(self.date)
+

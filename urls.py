@@ -13,6 +13,7 @@ urlpatterns = patterns('django.views.generic.simple',
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )
 urlpatterns += patterns('thealternativemedicinecabinet.content.views',
+    (r'^consult/$', 'consult'),
     (r'^speaking/$', 'speaking'),
     (r'^health_tips/$', 'health_tips'),
     (r'^email/add/$','email_add'),
