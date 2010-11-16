@@ -1,0 +1,201 @@
+[
+    {
+        "pk": 3, 
+        "model": "content.healthtip", 
+        "fields": {
+            "date": "2010-06-30", 
+            "tip": "I usually recommend that my clients cut out dairy, specifically milk. It is loaded full of hormones and antibiotics and is not as nutritious after being processed. If you need calcium and other minerals they can be gotten through increased consumption of veggies like spinach. I see many children suffering from chronic ear infections. Try taking them off cow's milk to see if it clears up. ", 
+            "title": "Got milk? Think again. "
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.healthtip", 
+        "fields": {
+            "date": "2010-06-11", 
+            "tip": "I see many men in my office complaing of low back and hip pain. Make sure you're not sitting on your wallet. It can throw your whole body out of balance. Keep in your briefcase, desk drawer or in your front pocket. ", 
+            "title": "Men. Low back pain?"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.healthtip", 
+        "fields": {
+            "date": "2010-06-10", 
+            "tip": "Having trouble catching those zzz's? Try taking L-Tryptophan an essential amino acid that we don't always get enough of in our food. Always follow the instructions on the label and don't take if you are on SSRI's for depression. Sweet dreams!", 
+            "title": "Trouble Sleeping?"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "content.upcomingevent", 
+        "fields": {
+            "description": "Join me at Earl Warren Showgrounds for a fabulous holistic health fair. I'll be there at my booth doing massage and health consulting from 10-6. I will also be doing a lecture on mind/body medicine.  \r\n\r\n\r\nStop by the booth and say hello! I look forward to seeing you!", 
+            "date_and_time": "2010-08-22 10:00:00", 
+            "link": "", 
+            "location": "Santa Barbara, CA ", 
+            "title": "Holistic Health Fair"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "content.upcomingevent", 
+        "fields": {
+            "description": "I will be signing my new book, The Alternative Medicine Cabinet and talking about how you can be healthier by adding and subtracting certain things from you life. Please join us at the Whole Foods on State and Hitchcock for an informative and fun evening. It's free, so come on by!", 
+            "date_and_time": "2010-07-29 06:30:00", 
+            "link": "http://wholefoodsmarket.com/storesbeta/santabarbara/calendar/", 
+            "location": "Whole Foods Santa Barbara", 
+            "title": "Lecture and Book signing "
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "content.upcomingevent", 
+        "fields": {
+            "description": "I am privileged to be one of the speakers at this years ANMA conference. If you find yourself in Las Vegas this weekend, please stop by and learn about naturopathy and natural healthcare. I will be speaking on mind/body medicine. There are booths with fabulous practitioners and experts as well as 3 days of lectures and breakout sessions. I look forward to seeing you there!", 
+            "date_and_time": "2010-07-25 09:00:00", 
+            "link": "", 
+            "location": "Riviera Hotel, Las Vegas, NV", 
+            "title": "Say What?! How our words effect our health, and what to do about it. "
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.recommendedresource", 
+        "fields": {
+            "description": "For a healthy raw snack, check out Alyssa Boyle's Cavewoman Bars. These are tasty, affordable and good for you. I keep them in my car and in my drawer at the office in case I need a quick snack. Check them out and tell her that Kathy sent you!", 
+            "date": "2010-06-30", 
+            "link": "http://www.cavewomanbars.com", 
+            "site": "Cavewoman Bars", 
+            "title": "Need a healthy snack?"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.recommendedresource", 
+        "fields": {
+            "description": "A great source for high quality homeopathics. I've used their products for years and recommend them highly! Custom remedies available. Check it out!", 
+            "date": "2010-06-30", 
+            "link": "http://www.mediral.com", 
+            "site": "Mediral Homeopathics", 
+            "title": "Homeopathic Care"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.recommendedresource", 
+        "fields": {
+            "description": "Learn about how you can take action to help keep our food supply safe and truthfully labeled. Sign up to receive updates about legislation and what is happening with additives and GMOs. Donate if you want to help support this fabulous organization, I do. ", 
+            "date": "2010-06-30", 
+            "link": "http://truefoodnow.org/", 
+            "site": "Center for Food Safety", 
+            "title": "Safe Food Now"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "content.recommendedresource", 
+        "fields": {
+            "description": "Fabulous, natural and amazing spices and teas. The owner is a gem and her products are incredible! Try them out and stop in to see her in Paso Robles. All natural, no preservatives, no MSG! Yes!", 
+            "date": "2010-06-30", 
+            "link": "http://www.pasospices.com/", 
+            "site": "Spice of Life", 
+            "title": "Spice up your life"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "content.recommendedresource", 
+        "fields": {
+            "description": "The most amazing natural bath salts and scrubs I've ever used. The bath is my sanctuary and these products made it heaven. All natural and additive free. She also carries Shea Butter, lotions and room sprays. Check them out and you'll be clean and enlivened!", 
+            "date": "2010-06-30", 
+            "link": "www.naninara.com", 
+            "site": "Nanina Ra Healing Arts", 
+            "title": "Take the Waters"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "content.recommendedresource", 
+        "fields": {
+            "description": "Dr. Robert Puff and his co-host Elizabeth Lozano are doing a great job at bringing health and wellness education to the public. Their show The Holistic Success Show is well-made and informative. Dr. Puff's opening monologues are insightful and thought-provoking. And their guests are well-spoken and highly qualified. Check them out!", 
+            "date": "2010-06-30", 
+            "link": "www.theholisticsuccessshow.com", 
+            "site": "The Holistic Success Show", 
+            "title": "Health TV online"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.media", 
+        "fields": {
+            "date": "2010-06-10", 
+            "link": "http://www.bigblendmagazine.com/healingcircle/cleansing.htm", 
+            "description": "Read Kathy's latest article on cleansing the body and why it's beneficial. At the bottom of the page is a link to her radio interview covering the same topic. Thanks for looking and have a healthy day!", 
+            "title": "Cleansing the Body"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "content.review", 
+        "fields": {
+            "date": "2010-07-20", 
+            "source": "For The Love of Baby", 
+            "description": "If you are looking for a way to handle your health in a natural way, then the book, The Alternative Medicine Cabinet is a must read. This book is a true resource to any health circumstances you might be encountering and breaks down alternative medicine. Kathy is very knowledgeable of natural and holistic living. "
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.review", 
+        "fields": {
+            "date": "2010-07-17", 
+            "source": "Kathleen Albertson via reviewthebook.com", 
+            "description": "I liked that so many of her suggestions were easy to incorporate and implement; making\r\nit easy for young and old! She presents so many aspects of achieving good health that\r\nI applaud her ability to explain it and organize it so easily. As a professional I learned\r\nmore about natural ways to help patients. This book continues to provide resources and\r\neducation for those who want to help themselves. Her message on how to change is\r\ninspiring.\r\n\r\n"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.review", 
+        "fields": {
+            "date": "2010-07-17", 
+            "source": "Irene Watson via reviewthebook.com", 
+            "description": "I love her little book. Basically Gruver covers all the important aspects. Gruver\u2019s\r\nknowledge and expertise shines through by giving the skeptic food for thought (pun\r\nintended)\r\n\r\n"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.review", 
+        "fields": {
+            "date": "2010-07-17", 
+            "source": "Ann Hauer via reviewthebook.com", 
+            "description": "I do feel this would be the perfect book to have on hand or give as a gift to those\r\nunfamiliar with the holistic field of natural medicine. The information is invaluable\r\nto anyone. It serves as a good reminder even to the current holistic professional\r\nto make sure they also take care of themselves, as well as those in their care.\r\n\r\n"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "content.review", 
+        "fields": {
+            "date": "2010-07-17", 
+            "source": "Eileen Casey, Hamptoms.com", 
+            "description": "Gruver has packed an enormous amount of information, including massage, herbs,\r\nhomeopathy and lifestyle tips and information, into a small, easily referenced book\r\nthat should not only be at every bedside/bathroom table, but in every kitchen as well.\r\n\r\n"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "content.review", 
+        "fields": {
+            "date": "2010-07-17", 
+            "source": "James Cox, Midwest Book Review", 
+            "description": "The Alternative Medicine Cabinet is a read well worth considering for those who\r\nembrace new age and alternative medicines.\r\n"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "content.review", 
+        "fields": {
+            "date": "2010-07-17", 
+            "source": "Jerinda of 3 Garnets & 2 Sapphires", 
+            "description": "The Alternative Medicine Cabinet is an easy read, but packed with information that everyone should know. This book is well written, covers a lot of information without being boring and is very easy to navigate. If you are interested in natural health to treat your ailments and illnesses, this book would be great for you. "
+        }
+    }
+]
