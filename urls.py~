@@ -8,12 +8,12 @@ admin.autodiscover()
 urlpatterns = patterns('django.views.generic.simple',
     (r'^$', 'direct_to_template', {'template':'index.html'}),
     (r'^background/$', 'direct_to_template', {'template':'background.html'}),
-    (r'^speaking/$', 'direct_to_template', {'template':'speaking.html'}),
     (r'^books/$', 'direct_to_template', {'template':'books.html'}),
     (r'^dvds/$', 'direct_to_template', {'template':'dvds.html'}),
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )
 urlpatterns += patterns('thealternativemedicinecabinet.content.views',
+    (r'^speaking/$', 'speaking'),
     (r'^health_tips/$', 'health_tips'),
     (r'^email/add/$','email_add'),
     (r'^media/$', 'media'),

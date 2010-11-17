@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="consult">
+<h2>{{ consult_text.header }}</h2>
+{{ consult_text.text|safe|escape }}
+</div>
+{% endblock %}

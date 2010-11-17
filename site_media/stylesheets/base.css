@@ -60,12 +60,12 @@ h1
   color: white;
   font-size: 16px;
   text-align: center;
-  padding-top: 2.8em;
+  padding-top: 3.5em;
 }
 
 #navigation li
 {
-  margin: 1em;
+  margin: 0.7em;
   margin-right: 2em;
 }
 
@@ -280,4 +280,21 @@ h2 {
 {
   line-height: 14px;
   font-size: 14px;
+}
+
+#consult p
+{
+  margin: 0.5em;
+}
+
+.bulleted
+{
+  list-style-type: circle;
+  text-align: left;
+  margin-left: 12em;
+}
+
+.bulleted li
+{
+  margin: 0.2em;
 }
