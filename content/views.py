@@ -60,6 +60,7 @@ def email_add(request):
     """ Creates an email object and notifies Kathy that she has a new email subscriber
     """
     if request.method=='POST':
+        page = request.META['HTTP_REFERER'] if request.META.has_key('HTTP_REFERER') else '/'
         values = request.POST.copy()
         form=EmailForm(values)
         if form.is_valid():
