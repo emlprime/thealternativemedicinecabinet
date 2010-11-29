@@ -1,6 +1,7 @@
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 from django.core.mail import send_mail
+from django.http import HttpResponseRedirect
 
 from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, Media, RecommendedResource, Email, Review, SpeakingReview, ConsultText
 from thealternativemedicinecabinet.content.forms import EmailForm
