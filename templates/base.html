@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% load email_tags %}
   <head>
     <title>{% block title %}The Alternative Medicine Cabinet{% endblock %}</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -27,21 +28,25 @@
 	<img src="/site_media/images/masthead.gif" alt="Healing: Body, Mind, Spirit" />
       </div>
       <div id="page">
-	<div id="navigation" class="grid_6">
-	  <ul>
-	    <li><p><a href="/">Home</a></p></li>
-	    <li><p><a href="/background/">Kathy's Background</a></p></li>
-	    <li><p><a href="/speaking/">Speaking</a></p></li>
-	    <li><p><a href="/upcoming_events/">Upcoming Events</a></p></li>
-	    <li><p><a href="/health_tips/">Health Tips</a></p></li>
-	    <li><p><a href="/consult/">Consults with Kathy</a></p></li>
-	    <li><p><a href="/recommended_resources/">Recommended Resources</a></p></li>
-	    <li><p><a href="/books/">Books</a></p></li>
-	    <li><p><a href="/dvds/">DVDs</a></p></li>
-	    <li><p><a href="/media/">Media</a></p></li>
-	  </ul>
+	<div class="grid_6">
+	  <div id="navigation">
+	    <ul>
+	      <li><p><a href="/">Home</a></p></li>
+	      <li><p><a href="/background/">Kathy's Background</a></p></li>
+	      <li><p><a href="/speaking/">Speaking</a></p></li>
+	      <li><p><a href="/upcoming_events/">Upcoming Events</a></p></li>
+	      <li><p><a href="/health_tips/">Health Tips</a></p></li>
+	      <li><p><a href="/consult/">Consults with Kathy</a></p></li>
+	      <li><p><a href="/recommended_resources/">Recommended Resources</a></p></li>
+	      <li><p><a href="/books/">Books</a></p></li>
+	      <li><p><a href="/dvds/">DVDs</a></p></li>
+	      <li><p><a href="/media/">Media</a></p></li>
+	    </ul>
+	  </div>
+	  <div id="email_form">
+	    {% display_email_form %}
+	  </div>
 	</div>
-
 	<div id="header" class="grid_10 omega">
 	  <h1>The Alternative Medicine Cabinet</h1>
 	</div>

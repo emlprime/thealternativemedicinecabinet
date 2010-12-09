@@ -1,0 +1,11 @@
+<div id="email_area">
+
+  <p>Sign up here to receive Kathy Gruver's bimonthly newsletter.  We provide practical tips for better health with articles, breaking health news and product recommendations. We respect your privacy and will never sell or give out your information.</p>
+  <form id="email_form" method="post" action="/email/add/">
+    <fieldset>
+      <p><label for="id_email">Email:</label> {{ email_form.email }}
+      <input type="submit" name="submit" value="Submit Email" id="submit_email" /></p>
+    </fieldset>
+  </form>
+
+  </div>

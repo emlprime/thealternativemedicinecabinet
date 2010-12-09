@@ -239,15 +239,20 @@ h2 {
   margin-left: 120px;
 }
 
-#newsletter p, #contact, #photo_downloads p
+#email_area, #contact, #photo_downloads p
 {
   font-size: 11px;
   margin: 0.5em;
 }
 
-#newsletter, #contact, #photo_downloads
+#contact, #photo_downloads
 {
   margin-top: 1em;
+}
+
+#email_area
+{
+  text-align: center;
 }
 
 #photo_downloads img
