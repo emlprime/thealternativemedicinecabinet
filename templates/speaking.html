@@ -1,5 +1,18 @@
 {% extends "base.html" %}
 
+{% block video %}
+<div class="video">
+<h2>Video Testimonials</h2>
+<p>Dr. Pesek endorsement of Kathy</p>
+<object width="480" height="385">
+<param name="movie" value="http://www.youtube.com/v/{{ object.youtube_id }}?fs=1&amp;hl=en_US"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowscriptaccess" value="always"></param>
+<embed src="http://www.youtube.com/v/neTpQWSaHTI?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="288" height="231"></embed>
+</object>
+</div>
+{% endblock %}
+
 {% block content %}
 <div id="speaking">
 <p>Kathy Gruver, author of The Alternative Medicine Cabinet, is a dynamic and entertaining speaker. Her lectures enlighten, educate and inspire.  A leading authority in natural health and wellness, Kathy has two decades of hands on experience and a flair for communicating in a fun and conversational way. As a former actor she incorporates that creativity and humor into each of her presentations.</p>

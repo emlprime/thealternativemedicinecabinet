@@ -313,3 +313,14 @@ h2 {
 {
   margin: 0.2em;
 }
+
+.video
+{
+  text-align: center;
+  margin: 0.5em;
+}
+
+.video p
+{
+  margin: 0.5em;
+}
