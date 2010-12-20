@@ -27,6 +27,12 @@ a:hover
   padding-left: 10px;
 }
 
+.announcement
+{
+  text-align:center;
+  font-weight:bold;
+}
+
 .reviews
 {
   font-size: 12px;
