@@ -1,0 +1,99 @@
+[
+    {
+        "pk": 1, 
+        "model": "content.email", 
+        "fields": {
+            "email": "laura@emlprime.com"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.email", 
+        "fields": {
+            "email": "laura@emlprime.com"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.email", 
+        "fields": {
+            "email": "laura@emlprime.com"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "content.email", 
+        "fields": {
+            "email": "laura@emlprime.com"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "content.email", 
+        "fields": {
+            "email": "laura@emlprime.com"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "content.email", 
+        "fields": {
+            "email": "laura@emlprime.com"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "content.email", 
+        "fields": {
+            "email": "info@emlprime.com"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.healthtip", 
+        "fields": {
+            "date": "2010-06-10", 
+            "tip": "Having trouble catching those zzz's? Try taking L-Tryptophan an essential amino acid that we don't always get enough of in our food. Always follow the instructions on the label and don't take if you are on SSRI's for depression. Sweet dreams!", 
+            "title": "Trouble sleeping?"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.upcomingevent", 
+        "fields": {
+            "description": "Join Kathy and the ladies from Big Blend Magazine as we discuss ten things to add and subtract for better health. Links and archived information to follow. Thanks for listening!", 
+            "date_and_time": "2010-06-25 12:00:00", 
+            "link": "", 
+            "location": "On Blog Talk Radio", 
+            "title": "Ten things to add for better health"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.media", 
+        "fields": {
+            "date": "2010-06-10", 
+            "link": "http://www.bigblendmagazine.com/healingcircle/cleansing.htm", 
+            "description": "Read Kathy's latest article on cleansing the body and why it's beneficial. At the bottom of the page is a link to her radio interview covering the same topic. Thanks for looking and have a healthy day!", 
+            "title": "Cleansing the Body"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.consulttext", 
+        "fields": {
+            "date": "2010-11-16", 
+            "header": "Consultations with Kathy", 
+            "text": "<p>Kathy\u2019s consultations are a combination of healing derived from 20 years of natural health experience using a blend of:</p>\r\n\r\n<ul class=\"bulleted\">\r\n<li>Mind/Body Medicine</li>\r\n\r\n<li>Energy Medicine like Reiki</li>\r\n\r\n<li>Medical Massage</li>\r\n\r\n<li>Health and life Coaching</li>\r\n\r\n<li>Intuitive Healing</li>\r\n\r\n<li>Creative Visualization and self-hypnosis</li>\r\n\r\n<li>Referral to other qualified practitioners like chiropractors, acupuncturist and counselors</li>\r\n</ul>\r\n\r\n<p>What I can help with:</p>\r\n<ul class=\"bulleted\">\r\n<li>Pain</li>\r\n\r\n<li>Injuries</li>\r\n\r\n<li>Preparation for surgery</li>\r\n\r\n<li>Recovery after surgery</li>\r\n\r\n<li>Life transitions</li>\r\n\r\n<li>Healthy pregnancy</li>\r\n\r\n<li>Emotional blocks</li>\r\n\r\n<li>Life stresses</li>\r\n</ul>\r\n<p>These consultations are available at Ms. Gruver\u2019s office in Santa Barbara, CA, and non-massage consultations are also available over the phone and via Skype.</p>\r\n\r\n<p>If you are ready to take control of your life and your health, contact Kathy now and make your appointment.</p>\r\n"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.consulttext", 
+        "fields": {
+            "date": "2010-11-03", 
+            "header": "Improve your health; Body, Mind and Spirit", 
+            "text": "You can enter whatever text you want here.\r\n\r\nParagraphs!"
+        }
+    }
+]
