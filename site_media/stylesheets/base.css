@@ -334,3 +334,13 @@ h2 {
 {
   margin: 0.5em;
 }
+
+#amazon_link a
+{
+  color: black;
+}
+
+#amazon_link a:hover
+{
+  color: #666666;
+}
