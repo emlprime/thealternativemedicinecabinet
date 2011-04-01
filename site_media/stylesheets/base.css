@@ -344,3 +344,8 @@ h2 {
 {
   color: #666666;
 }
+
+#kindle_img, #dvd_bundle_img
+{
+  width: 180px;
+}
