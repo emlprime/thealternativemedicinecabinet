@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 {% load email_tags %}
   <head>
     <title>{% block title %}The Alternative Medicine Cabinet{% endblock %}</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta charset="utf-8" />
     <meta name="google-site-verification" content="0zWozPclWQ95D9TrJIS5RSt-1cHiE2br_loxLvyTgpw" />
     <meta name="keywords" content="massage,therapy,therapeutic,deep tissue,trigger point,sports,corporate,reiki,ear coning,ear candling,health,birth assistant,naturopath,alternative medicine,CAM,complimentary alternative medicine,santa barbara,goleta,acupressure,pathology,nutrition,therapist,natural health,doula,pain relief,lectures,workshops,classes,integrated medicine,traditional naturopath,ND,herbs,homeopathics,bach flower essences,consulting,montecito,california,centralcoast,education,dvd,book,body,mind,spirit,mind/body medicine,mind/body connection,PhD.,mind-body,PNI,psychosomatic therapy,meditation, positive thought,affirmations,natural medicine"/>
     <meta name="description" content="Improve your health, learn about alternative medicine and heal on all levels of body, mind and spirit with author of the Alternative Medicine Cabinet, Kathy Gruver, PhD." />
@@ -29,7 +29,9 @@
 	<img src="/site_media/images/masthead.gif" alt="Healing: Body, Mind, Spirit" />
       </div>
       <div id="page">
+
 	<div class="grid_6">
+
 	  <div id="navigation">
 	    <ul>
 	      <li><p><a href="/">Home</a></p></li>
@@ -44,34 +46,36 @@
 	      <li><p><a href="/media/">Media</a></p></li>
 	    </ul>
 	  </div>
-<div id="sticker"><a href="http://www.indieexcellence.com/indie-results-2011.htm" target="_blank"><img src="http://www.indieexcellence.com/IEx_goldoval_finalist72s.png" width="160" height="75" border="0"></a></div>
-&nbsp;
-<div class="announcement"><p>Aired March 1st</p>
-<embed height="275" width="350" flashvars="v=D8U37FH2502727" allowfullscreen="true" swliveconnect="true" salign="t" wmode="transparent" quality="high" bgcolor="#FFFFFF" name="videoPlayer2" id="videoPlayer2" style="" src="http://www.thebalancingact.com/BA_Video_Player_320.swf" type="application/x-shockwave-flash"/>     </div>
-<div class="announcement">
-<iframe width="350" height="275" src="http://www.youtube.com/embed/7gZ-zOJ1muQ" frameborder="0" allowfullscreen></iframe>
-<a href="http://www.youtube.com/drkathygruver" rel="external"><p style="color: black; text-decoration:underline; font-size: 14px;">Visit Kathy's Youtube channel for more health tips</p></a>
-</div>
-	  <div id="email_form">
-	    {% display_email_form %}
+
+	  <div id="email">
+            {% display_email_form %}
 	  </div>
 	  {% block video %}
 	  {% endblock %}
+
+	<div class="announcement"><p>Aired March 1st</p>
+	  <embed height="275" width="350" flashvars="v=D8U37FH2502727" allowfullscreen="true" swliveconnect="true" salign="t" wmode="transparent" quality="high" bgcolor="#FFFFFF" id="videoPlayer2" style="" src="http://www.thebalancingact.com/BA_Video_Player_320.swf" type="application/x-shockwave-flash"/>     </div>
+	<div class="announcement">
+	  <iframe width="350" height="275" src="http://www.youtube.com/embed/2v4ZL0B3zHc" ></iframe>
+	  <a href="http://www.youtube.com/drkathygruver" rel="external"><p style="color: black; text-decoration:underline; font-size: 14px;">Visit Kathy's Youtube channel for more health tips</p></a>
 	</div>
+	</div>
+
+
 	<div id="header" class="grid_10 omega">
-	  {% block header %}<h1>The Alternative Medicine Cabinet</h1>{% endblock %}
-	</div>
+	    {% block header %}<h1>The Alternative Medicine Cabinet</h1>{% endblock %}
+	    </div>
 	<div id="content" class="grid_10 omega">
-	  {% block content %}
-	  {% endblock %}
-	</div>
+	    {% block content %}
+	      {% endblock %}
+	    </div>
 
 <div class="clear">&nbsp;</div>
 
-	<div id="footer" class="grid_16">
-	  <span>&copy; 2010 Kathy Gruver. All Rights Reserved.</span>
-	  <span>805-680-1984</span>
-	  <span><a href="mailto:healingcirclemassage@hotmail.com">healingcirclemassage@hotmail.com</a></span>
+<div id="footer" class="grid_16">
+    <span>&copy; 2010 Kathy Gruver. All Rights Reserved.</span>
+      <span>805-680-1984</span>
+        <span><a href="mailto:healingcirclemassage@hotmail.com">healingcirclemassage@hotmail.com</a></span>
 	</div>
       </div>
     </div>
