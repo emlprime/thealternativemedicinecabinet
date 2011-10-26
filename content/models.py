@@ -39,6 +39,19 @@ class UpcomingEvent(models.Model):
     def __unicode__(self):
         return self.title
 
+class YoutubeVideo(models.Model):
+    """ the logic for the video template tag
+    """
+    video_id = models.CharField(max_length=255)
+    date = models.DateField()
+
+    class Meta:
+        ordering = ['-date']
+        get_latest_by = "date"
+
+    def __unicode__(self):
+        return str(self.date)
+
 class RecommendedResource(models.Model):
     """ the logic for the admin-editable recommended resources 
     """
