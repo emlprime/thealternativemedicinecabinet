@@ -1,10 +1,14 @@
 from django.contrib import admin
 
-from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, RecommendedResource, Media, Email, Review, SpeakingReview, ConsultText
+from thealternativemedicinecabinet.content.models import HealthTip, UpcomingEvent, RecommendedResource, Media, Email, Review, SpeakingReview, ConsultText, YoutubeVideo
 
 class HealthTipAdmin(admin.ModelAdmin):
     pass
 admin.site.register(HealthTip, HealthTipAdmin)
+
+class YoutubeVideoAdmin(admin.ModelAdmin):
+    pass
+admin.site.register(YoutubeVideo, YoutubeVideoAdmin)
 
 class ConsultTextAdmin(admin.ModelAdmin):
     pass
