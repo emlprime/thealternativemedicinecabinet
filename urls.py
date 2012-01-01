@@ -10,6 +10,7 @@ urlpatterns = patterns('django.views.generic.simple',
     (r'^background/$', 'direct_to_template', {'template':'background.html'}),
     (r'^books/$', 'direct_to_template', {'template':'books.html'}),
     (r'^dvds/$', 'direct_to_template', {'template':'dvds.html'}),
+    (r'^expert_witness/$', 'direct_to_template', {'template':'witness.html'}),
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )
 urlpatterns += patterns('thealternativemedicinecabinet.content.views',
