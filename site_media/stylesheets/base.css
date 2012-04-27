@@ -18,7 +18,8 @@ a:hover
 #wrapper
 {
 background-image:url(/site_media/images/content_bg.jpg);
-padding-bottom: 100px;
+padding-right: 50px;
+padding-left: 50px;
 }
 
 .shift
@@ -55,8 +56,8 @@ h1
 
 #footer
 {
-  margin-top: 50px;
-  padding-left:65px;
+  margin: 50px;
+  text-align:center;
 }
 
 #footer a:hover
@@ -83,7 +84,7 @@ h1
 
 #navigation li
 {
-  margin: 8px 15px 3px 3px;
+  margin: 8px 15px 3px 20px;
 }
 
 .endsection
@@ -92,12 +93,12 @@ h1
     background-image: url("/site_media/images/leaf.jpg")!important;
     background-position: center bottom!important;
     background-repeat: no-repeat!important;
-    padding-bottom: 25px!important;
+    margin-bottom: 25px;
+    padding-bottom: 50px !important;
 }
 
-#content
-{
-  text-align: center;
+#content {
+  text-align: left;
 }
 
 #header
@@ -107,8 +108,8 @@ h1
 
 body
 {
-  font-family: trebuchet ms,modern;
-  font-size: 15px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 14px;
   color: #333333;
   line-height: 18px;
   background-color: #ecf5e2;
@@ -119,9 +120,14 @@ h2 {
   font-weight: bold;
 }
 
+ul
+{
+  margin-right: 10px;
+}
+
 .content_list li
 {
-  margin: 5px;
+  margin: 15px 5px 5px 5px;
 }
 
 #contact_info, #personal_interests
@@ -168,7 +174,11 @@ h2 {
 
 #dvd_info ul
 {
-  margin-bottom: 1em;
+    float: left;
+    list-style: circle outside none;
+    margin-bottom: 1em;
+    margin-left: 30px;
+    width: 220px;
 }
 
 #dvd_info a:link, #dvd_info a:active, #dvd_info a:visited
@@ -184,7 +194,16 @@ h2 {
 #dvd_info h2
 {
   margin: 0.5em;
-  text-decoration: underline
+}
+
+#dvd_info
+{
+  padding: 20px;
+}
+
+.testimonial_list {
+  width: 100%!important;
+  list-style: none!important;
 }
 
 .book_contents li
@@ -192,6 +211,10 @@ h2 {
   font-size: 12px;
   margin: 0.5em;
   list-style-type: circle;
+}
+
+#book_order {
+  margin-top: 20px;
 }
 
 #book_header
@@ -244,7 +267,7 @@ h2 {
   list-style-type: circle;
   width: 400px;
   text-align: left;
-  margin-left: 120px;
+  margin-left: 50px;
 }
 
 #email_area, #contact, #photo_downloads p
@@ -294,8 +317,6 @@ h2 {
 .speaking_review li
 {
   list-style-type: none;
-  text-align: center;
-  margin-right: 5em;
   padding: 0px;
 }
 
@@ -314,12 +335,12 @@ h2 {
 {
   list-style-type: circle;
   text-align: left;
-  margin-left: 12em;
+  margin-left: 50px;
 }
 
 .bulleted li
 {
-  margin: 0.2em;
+  margin: 10px;
 }
 
 .video
@@ -364,3 +385,8 @@ h2 {
   list-style-type: disc;
   margin-left: 50px;
 } 
+
+.content_list {
+  margin-top: 20px;
+}
+

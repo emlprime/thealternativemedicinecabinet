@@ -21,7 +21,7 @@
 
 
 <ul class="content_list">
-<a href="http://www.pr.com/press-release/289305">Kathy Gruver, Owner of Healing Circle, Author of The Alternative Medicine Cabinet Shows People How to Take Charge of Their Health Naturally to Lower Health Costs</a>
+<li><a href="http://www.pr.com/press-release/289305">Kathy Gruver, Owner of Healing Circle, Author of The Alternative Medicine Cabinet Shows People How to Take Charge of Their Health Naturally to Lower Health Costs</a></li>
   
   {% for object in media_list %}
 
@@ -31,10 +31,10 @@
     <a href="{{ object.link }}" rel="external">
       {% endif %}
       <h4>{{ object.title }}</h4>
-      <p>{{ object.description }}</p>
       {% if object.link %}
     </a>
     {% endif %}
+      <p>{{ object.description }}</p>
   
   </li>
 
