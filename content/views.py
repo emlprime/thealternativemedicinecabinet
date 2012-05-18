@@ -72,5 +72,7 @@ def email_add(request):
                 send_mail('Problem with Email Subscriber to Healing Circle', "there is something wrong with the email server" , 'subscribers@healingcirclemassage.com', ['laura@emlprime.com'], fail_silently=False)                
         else:
             errors = form.errors
+    else:
+        page = request.META['HTTP_REFERER'] if request.META.has_key('HTTP_REFERER') else '/'
     context=locals()
     return HttpResponseRedirect(page)
