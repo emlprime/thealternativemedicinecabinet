@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block video %}
+<div class="video">
+<h2>Video Testimonials</h2>
+<p>Dr. Pesek endorsement of Kathy</p>
+<object width="480" height="385">
+<param name="movie" value="http://www.youtube.com/v/{{ object.youtube_id }}?fs=1&amp;hl=en_US"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowscriptaccess" value="always"></param>
+<embed src="http://www.youtube.com/v/neTpQWSaHTI?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="288" height="231"></embed>
+</object>
+</div>
+{% endblock %}
+
+{% block content %}
+<img src="/site_media/images/OTVLogo2.jpg" alt="TV Logo" style="float: left;" />
+<p style="margin:10px;">Coming in Fall of 2012, an entertaining, fast-paced overview of ancient and modern wellness tips by Kathy Gruver, PhD, a health educator based in Santa Barbara, California</p> 
+<div class="clear"> </div>
+
+<img src="/site_media/images/television1.jpg" alt=" " width="300" style="margin-top: 10px; float: right;" />
+<p style="margin-top: 50px;">Dr. Kathy explores and demonstrates different healing modalities in each episode, from massage, reiki, reflexology, and acupuncture to vitamins and herbal remedies.</p>
+<div class="clear"> </div>
+
+<img src="/site_media/images/AMC_Front_Cover.JPG" alt="The Alternative Medicine Cabinet" width="150" style="float: left; margin-right: 10px;" />
+<p style="margin-top: 50px;">The series is based on Dr. Kathy's book, <i>The Alternative Medicine Cabinet</i></p>
+<div class="clear"> </div>
+
+<div class="endsection"> </div>
+{% endblock %}
