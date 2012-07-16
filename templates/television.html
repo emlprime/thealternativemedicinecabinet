@@ -1,5 +1,27 @@
 {% extends "base.html" %}
 
+{% block page_css %}
+<link rel="stylesheet" type="text/css" href="/site_media/stylesheets/global.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+<script src="/site_media/scripts/slides.min.jquery.js"></script>
+<script>
+  $(function(){
+  $('#slides').slides({
+  preload: true,
+  preloadImage: 'img/loading.gif',
+  play: 5000,
+  pause: 2500,
+  hoverPause: true
+  });
+  });
+  </script>
+
+
+
+{% endblock %}
+
+
 {% block video %}
 <div class="video">
 <h2>Video Testimonials</h2>
@@ -18,7 +40,7 @@
 <p style="margin:10px;">Coming in Fall of 2012, an entertaining, fast-paced overview of ancient and modern wellness tips by Kathy Gruver, PhD, a health educator based in Santa Barbara, California</p> 
 <div class="clear"> </div>
 
-<img src="/site_media/images/television1.jpg" alt=" " width="300" style="margin-top: 10px; float: right;" />
+<img src="/site_media/images/AMC_promo.jpg" alt=" " width="300" style="margin-top: 10px; float: right;" />
 <p style="margin-top: 50px;">Dr. Kathy explores and demonstrates different healing modalities in each episode, from massage, reiki, reflexology, and acupuncture to vitamins and herbal remedies.</p>
 <div class="clear"> </div>
 
@@ -27,4 +49,28 @@
 <div class="clear"> </div>
 
 <div class="endsection"> </div>
+
+<div id="container">
+  <div id="example">
+    <div id="slides">
+      <div class="slides_container">
+	<img src="/site_media/images/slide1.JPG" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide2.JPG" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide3.jpg" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide4.jpg" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide5.jpg" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide6.jpg" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide7.jpg" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide8.JPG" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide9.JPG" width="500" alt="Slide 1" />
+	<img src="/site_media/images/slide10.JPG" width="500" alt="Slide 1" />
+      </div>
+      <a href="#" class="prev"><img src="/site_media/images/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+      <a href="#" class="next"><img src="/site_media/images/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+    </div>
+  </div>
+</div>
+<div class="clear"> </div>
+<div class="endsection"> </div>
+</div>
 {% endblock %}
