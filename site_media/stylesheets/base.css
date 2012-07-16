@@ -71,7 +71,7 @@ h1
   background-image: url("/site_media/images/navigation.png");
   background-repeat: no-repeat;
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   margin-left:15px;
 }
@@ -84,7 +84,7 @@ h1
 
 #navigation li
 {
-  margin: 8px 15px 3px 20px;
+  margin: 5px 15px 3px 20px;
 }
 
 .endsection
