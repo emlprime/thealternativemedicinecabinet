@@ -12,7 +12,30 @@
   preloadImage: 'img/loading.gif',
   play: 5000,
   pause: 2500,
-  hoverPause: true
+  hoverPause: true,
+  animationStart: function(current){
+  $('.caption').animate({
+  bottom:-35
+  },100);
+  if (window.console && console.log) {
+  // example return of current slide number
+  console.log('animationStart on slide: ', current);
+  };
+  },
+  animationComplete: function(current){
+  $('.caption').animate({
+  bottom:0
+  },200);
+  if (window.console && console.log) {
+  // example return of current slide number
+  console.log('animationComplete on slide: ', current);
+  };
+  },
+  slidesLoaded: function() {
+  $('.caption').animate({
+  bottom:0
+  },200);
+  }
   });
   });
   </script>
@@ -54,16 +77,84 @@
   <div id="example">
     <div id="slides">
       <div class="slides_container">
-	<img src="/site_media/images/slide1.JPG" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide2.JPG" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide3.jpg" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide4.jpg" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide5.jpg" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide6.jpg" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide7.jpg" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide8.JPG" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide9.JPG" width="500" alt="Slide 1" />
-	<img src="/site_media/images/slide10.JPG" width="500" alt="Slide 1" />
+
+	<div class="slide">
+	  <img src="/site_media/images/slide1.JPG" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Kathy demonstrates massage</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide2.JPG" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Getting ready</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide3.jpg" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>With chiropractor John Craviotto</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide4.jpg" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Going over the script with Isaac Osborne, Egoscue practitioner</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide5.jpg" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Talking with Linda Croyle about BEST</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide6.jpg" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Learning about dance for health with Tamarr Paul</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide7.jpg" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Conveying the importance of health</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide8.JPG" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>One of the promo stills</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide9.JPG" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Maggie David tells us about reflexology</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/slide10.JPG" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>The importance of water issues with expert Michael Cervin</p>
+	  </div>
+	</div>
+
+	<div class="slide">
+	  <img src="/site_media/images/acupuncture.jpg" width="500" alt="Slide 1" />
+	  <div class="caption" style="bottom:0">
+	    <p>Getting needled with Lori Guynes, acupuncturist</p>
+	  </div>
+	</div>
+
       </div>
       <a href="#" class="prev"><img src="/site_media/images/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
       <a href="#" class="next"><img src="/site_media/images/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
