@@ -227,6 +227,14 @@ ul
   height: 350px;
 }
 
+#health_tips a.sponsored {
+    color: blue;
+}
+
+#health_tips li.sponsored p {
+    text-align: center;
+}
+
 #health_tips li
 {
   margin: 1em;
