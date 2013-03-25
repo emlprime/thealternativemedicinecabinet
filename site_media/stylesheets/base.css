@@ -283,6 +283,10 @@ ul
   margin-left: 50px;
 }
 
+#photo_downloads {
+  text-align: center;
+}
+
 #email_area, #contact, #photo_downloads p
 {
   font-size: 11px;
@@ -403,3 +407,10 @@ ul
   margin-top: 20px;
 }
 
+#one_sheet {
+  text-align: center;
+  margin: 10px 35px;
+  padding: 40px 5px;
+  outline: 1px solid #333;
+  font-size: 130%;
+}
