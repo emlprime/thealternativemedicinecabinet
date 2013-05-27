@@ -5,3 +5,9 @@ admin_media
 apache
 django
 registration
+/.DS_Store
+/site_media/.DS_Store
+/site_media/scripts/.DS_Store
+/site_media/stylesheets/.DS_Store
+/urls.py~
+/site_media/images/.DS_Store
