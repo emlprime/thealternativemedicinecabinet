@@ -106,6 +106,12 @@ h1
   text-align: left;
 }
 
+#content a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+
 #header
 {
   margin-top: 10px;
