@@ -26,10 +26,10 @@
   
   {% for object in media_list %}
 
-  <li>
+  <li class="category_{{object.category}}">
     
     {% if object.link %}
-    <a href="{{ object.link }}" rel="external">
+    <a target="_blank" href="{{ object.link }}">
       {% endif %}
       <h4>{{ object.title }}</h4>
       {% if object.link %}

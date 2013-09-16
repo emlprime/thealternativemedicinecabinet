@@ -68,6 +68,11 @@ class RecommendedResource(models.Model):
     def __unicode__(self):
         return self.title
 
+MEDIA_OPTIONS = (
+    ('W', 'Written'),
+    ('R', 'Radio'),
+    ('T', 'Television'),
+)
 
 class Media(models.Model):
     """ the logic for the admin-editable media page 
@@ -76,7 +81,7 @@ class Media(models.Model):
     link = models.CharField(max_length=255, blank=True)
     date = models.DateField()
     description = models.TextField(blank=True)
-
+    category = models.CharField(max_length=2,choices=MEDIA_OPTIONS,default='W', blank=True)
     class Meta:
         ordering = ['-date']
         get_latest_by = "date"

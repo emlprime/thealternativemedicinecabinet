@@ -420,3 +420,21 @@ ul
   outline: 1px solid #333;
   font-size: 130%;
 }
+
+li.category_T h4, li.category_W h4, li.category_R h4 {
+  padding-left: 30px;
+}
+
+li.category_T {
+  background-image: url('/site_media/images/television.png');
+  background-repeat: no-repeat;
+}
+li.category_R {
+  background-image: url('/site_media/images/radio.png');
+  background-repeat: no-repeat;
+}
+
+li.category_W {
+  background-image: url('/site_media/images/written.png');
+  background-repeat: no-repeat;
+}
