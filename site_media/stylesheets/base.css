@@ -10,20 +10,24 @@ a:hover
  color: white;
 }
 
+.red {
+  color: red;
+}
+
 .hidden {
   display: none;
 }
 
 #wrapper
 {
-background-image:url(/site_media/images/content_bg.jpg);
-padding-right: 50px;
-padding-left: 50px;
+  background-image:url(/site_media/images/content_bg.jpg);
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .center
 {
-text-align: center;
+  text-align: center;
 }
 
 .shift
