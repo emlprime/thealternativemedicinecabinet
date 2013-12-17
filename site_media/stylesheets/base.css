@@ -1,9 +1,4 @@
 
-*
-{
-  margin:0;
-  padding:0;
-}
 
 a:link, a:visited, a:active
 {
@@ -13,6 +8,10 @@ a:link, a:visited, a:active
 a:hover
 {
  color: white;
+}
+
+.hidden {
+  display: none;
 }
 
 #wrapper
@@ -437,4 +436,18 @@ li.category_R {
 li.category_W {
   background-image: url('/site_media/images/written.png');
   background-repeat: no-repeat;
+}
+
+.discount_code_target {
+    text-decoration: underline;
+    color: red;
+}
+
+#discount_code_form {
+ position: absolute;
+ display: none;
+ background-color: white;
+ padding: 20px;
+ border: 1px solid #333;
+ border-radius: 5px;
 }
