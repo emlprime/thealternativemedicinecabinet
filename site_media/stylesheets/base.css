@@ -269,6 +269,12 @@ ul
   margin-bottom: 1em;
 }
 
+.home_page_image {
+  margin-left: 20px;
+  height: 250px;
+  margin-top: 20px;
+}
+
 #home_page p, #speaking p, #speaking h4
 {
   margin: 1em;
