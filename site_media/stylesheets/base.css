@@ -79,7 +79,7 @@ h1
   background-image: url("/site_media/images/navigation.png");
   background-repeat: no-repeat;
   color: white;
-  font-size: 15px;
+  font-size: 120%;
   text-align: center;
   margin-left:15px;
 }
@@ -92,7 +92,7 @@ h1
 
 #navigation li
 {
-  margin: 5px 15px 3px 20px;
+  margin: 10px 15px 5px 20px;
 }
 
 .endsection
@@ -302,9 +302,14 @@ ul
   text-align: center;
 }
 
-#email_area, #contact, #photo_downloads p
+#contact p {
+  font-size: 110%;
+  margin: 5px 50px;
+}
+
+#email_area
 {
-  font-size: 11px;
+  font-size: 90%;
   margin: 0.5em;
 }
 
@@ -424,8 +429,8 @@ ul
 
 #one_sheet {
   text-align: center;
-  margin: 10px 35px;
   padding: 40px 5px;
+  margin-bottom: 30px!important;
   outline: 1px solid #333;
   font-size: 130%;
 }

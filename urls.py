@@ -12,7 +12,7 @@ urlpatterns = patterns('django.views.generic.simple',
     (r'^books/$', 'redirect_to', {'url':'/store/'}),
     (r'^dvds/$', 'redirect_to', {'url':'/store/'}),
     (r'^store/$', 'direct_to_template', {'template': 'store.html'}),
-    (r'^expert_witness/$', 'direct_to_template', {'template':'witness.html'}),
+    (r'^press/$', 'direct_to_template', {'template': 'press.html'}),
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )
 urlpatterns += patterns('thealternativemedicinecabinet.content.views',
