@@ -461,3 +461,28 @@ li.category_W {
  border: 1px solid #333;
  border-radius: 5px;
 }
+
+#upcoming_events {
+  font-size: 90%;
+  padding: 0 30px;
+}
+
+#upcoming_events h2 {
+  margin: 10px 0;
+}
+
+#upcoming_events li h4 {
+  padding-left: 40px;
+  min-height: 40px;
+  background-image: url('/site_media/images/calendar_icon1.png');
+  background-repeat: no-repeat;
+  background-position: 0px center;
+}
+
+#upcoming_events li a {
+  color: black;
+}
+
+#upcoming_events li a:hover {
+  color: #666;
+}

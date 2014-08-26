@@ -2,6 +2,7 @@
 <html>
 {% load email_tags %}
 {% load video_tags %}
+{% load event_tags %}
   <head>
     <title>{% block title %}The Alternative Medicine Cabinet{% endblock %}</title>
     <meta charset="utf-8" />
@@ -46,7 +47,6 @@
 	      <li><p><a href="/television/">Television</a></p></li>
 	      <li><p><a href="/background/">Kathy's Background</a></p></li>
 	      <li><p><a href="/speaking/">Speaking</a></p></li>
-	      <li><p><a href="/upcoming_events/">Upcoming Events</a></p></li>
 	      <li><p><a href="/health_tips/">Health Tips</a></p></li>
 	      <li><p><a href="/consult/">Consults with Kathy</a></p></li>
 	      <li><p><a href="/expert_witness/">Expert Witness</a></p></li>
@@ -58,7 +58,7 @@
 	  <div id="email">
             {% display_email_form %}
 	  </div>
-
+        {% display_events %}
 	<div class="announcement">
           {% display_video %}
 	  <a href="http://www.youtube.com/drkathygruver" rel="external"><p style="color: black; text-decoration:underline; font-size: 12px;">Visit Kathy's Youtube channel for more health tips</p></a>

@@ -1,19 +1,16 @@
-{% extends "base.html" %}
+<div id="upcoming_events">
+<h2>Upcoming Events</h2>
 
-{% block content %}
-
-<h2>Upcoming Events Featuring Kathy Gruver</h2>
-
-<ul class="content_list">
+<ul>
   
-  {% for object in upcoming_events %}
+  {% for object in events %}
 
   <li>
     
     {% if object.link %}
     <a href="{{ object.link }}" rel="external">
     {% endif %}
-
+    <p class="date_calendar">{{ object.date|date:"D d M Y" }}</p>
       <h4>{{ object.title }}</h4>
 
     {% if object.link %}
@@ -28,6 +25,4 @@
   {% endfor %}
   
 </ul>
-<div class="endsection"> </div>
-
-{% endblock %}
+</div>

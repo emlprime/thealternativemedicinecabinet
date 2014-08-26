@@ -22,7 +22,6 @@ urlpatterns += patterns('thealternativemedicinecabinet.content.views',
     (r'^email/add/$','email_add'),
     (r'^media/$', 'media'),
     (r'^recommended_resources/$', 'recommended_resources'),
-    (r'^upcoming_events/$', 'upcoming_events'),
 )
 
 urlpatterns += patterns('',
