@@ -55,11 +55,28 @@ h1
   font-size: 20px;
 }
 
+.green_button {
+    color: #333333;
+    border: solid 1px #999999;
+    background: #11db18; /* Old browsers */
+    background: -moz-linear-gradient(top,  #11db18 23%, #3CB20E 68%, #3CB20E 68%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#11db18), color-stop(68%,#3CB20E), color-stop(68%,#3CB20E)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #11db18 23%,#3CB20E 68%,#3CB20E 68%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #11db18 23%,#3CB20E 68%,#3CB20E 68%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #11db18 23%,#3CB20E 68%,#3CB20E 68%); /* IE10+ */
+    background: linear-gradient(to bottom,  #11db18 23%,#3CB20E 68%,#3CB20E 68%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11db18', endColorstr='#3CB20E',GradientType=0 ); /* IE6-9 */
+}
+
+.green_button:hover { background: #13F23C; }
+.green_button:active { background: #3CB20E; }
+
+
 #footer span, #footer a
 {
   color: black;
   font-weight: bold;
-  margin: 20px;
+  margin: 10px;
 }
 
 #footer
@@ -310,7 +327,9 @@ ul
 #email_area
 {
   font-size: 90%;
-  margin: 0.5em;
+  margin: 10px 0px 10px 15px;
+  border: 1px solid #3CB20E;
+  padding: 5px;
 }
 
 #contact, #photo_downloads
