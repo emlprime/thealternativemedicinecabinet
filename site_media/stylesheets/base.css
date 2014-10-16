@@ -55,6 +55,11 @@ h1
   font-size: 20px;
 }
 
+button a, button a:hover {
+  text-decoration: none!important;
+  color: black!important;
+}
+
 .green_button {
     color: #333333;
     border: solid 1px #999999;
