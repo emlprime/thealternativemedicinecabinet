@@ -58,6 +58,19 @@
 	  <div id="email">
             {% display_email_form %}
 	  </div>
+	    <script>
+	      (function() {
+	      var cx = '002447200420352053909:qsvf3_f-yeo';
+	      var gcse = document.createElement('script');
+	      gcse.type = 'text/javascript';
+	      gcse.async = true;
+	      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+              '//www.google.com/cse/cse.js?cx=' + cx;
+	      var s = document.getElementsByTagName('script')[0];
+	      s.parentNode.insertBefore(gcse, s);
+	      })();
+	    </script>
+	    <gcse:search></gcse:search>
         {% display_events %}
 	<div class="announcement">
           {% display_video %}
@@ -80,8 +93,8 @@
 	    </div>
 	<div id="content" class="grid_10 omega">
 	    {% block content %}
-	      {% endblock %}
-	    </div>
+	    {% endblock %}
+	</div>
 
 	<div class="clear">&nbsp;</div>
 	<div id="footer" class="grid_14">

@@ -151,6 +151,11 @@ body
   background-color: #ecf5e2;
 }
 
+.gsc-control-cse {
+  background-color: #efefef!important;
+  border-color: #efefef!important;
+}
+
 h2 {
   font-size: 18px;
   font-weight: bold;
