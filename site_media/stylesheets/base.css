@@ -84,9 +84,14 @@ button a, button a:hover {
   margin: 10px;
 }
 
+#footer img {
+  height: 20px;
+  margin: 0px -20px;
+}
+
 #footer
 {
-  margin: 50px;
+  margin: 50px 0px;
   text-align:center;
 }
 
