@@ -1,6 +1,12 @@
 CODES = ['headstart']
 $(document).ready(function () {
 	$('.toggle_target').hide();
+	$('.toggle_close').click(function(event){
+		$(event.target).parent().parent().parent().find('.toggle').click();
+	});
+        $('.toggle_target').click(function (event) {
+		$(event.target).parent().find('.toggle').click();
+	});
 	$('.toggle').click(function (event) {
 		if($(event.target).parent().hasClass('closed')) {
 		    $(event.target).text('Hide Details');

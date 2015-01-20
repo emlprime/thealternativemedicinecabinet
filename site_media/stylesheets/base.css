@@ -76,6 +76,35 @@ button a, button a:hover {
 .green_button:hover { background: #13F23C; }
 .green_button:active { background: #3CB20E; }
 
+.product { margin: 5px; }
+
+.toggle_target {
+position: fixed;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+top: 0px;
+left: 0px;
+}
+
+.toggle_content {
+display: block;
+position: absolute;
+top: 50px;
+background-color: #eee;
+border: 2px solid #333;
+left: 140px;
+right: 140px;
+bottom: 50px;
+overflow: auto;
+padding: 0 20px;
+border-radius: 5px;
+}
+
+.toggle_close {
+text-align: right;
+padding: 10px;
+}
 
 #footer span, #footer a
 {
@@ -256,7 +285,6 @@ ul
 {
   font-size: 12px;
   margin: 0.5em;
-  list-style-type: circle;
 }
 
 #book_order {
