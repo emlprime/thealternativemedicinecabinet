@@ -8,6 +8,8 @@ admin.autodiscover()
 urlpatterns = patterns('django.views.generic.simple',
     (r'^$', 'direct_to_template', {'template':'index.html'}),
     (r'^background/$', 'direct_to_template', {'template':'background.html'}),
+    (r'^robots.txt$', 'direct_to_template', {'template':'robots.txt'}),
+    (r'^sitemap.xml$', 'direct_to_template', {'template':'sitemap.xml'}),
     (r'^disclaimer/$', 'direct_to_template', {'template':'disclaimer.html'}),
     (r'^television/$', 'direct_to_template', {'template':'television.html'}),
     (r'^free_gift/$', 'direct_to_template', {'template':'free_gift.html'}),
