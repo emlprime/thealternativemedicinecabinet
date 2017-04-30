@@ -1,5 +1,10 @@
 CODES = ['headstart']
 $(document).ready(function () {
+        $('#submit_email').click(function(event){
+            if ($('.botpot').val()){
+	        event.preventDefault();
+	    }
+	});
 	$('.toggle_target').hide();
 	$('.toggle_close').click(function(event){
 		$(event.target).parent().parent().parent().find('.toggle').click();
