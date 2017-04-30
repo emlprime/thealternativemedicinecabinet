@@ -67,7 +67,7 @@ def email_add(request):
             email=form.save()
             message = "%s has subscribed to your email mailing list" % (email)
             try:
-                send_mail('Email Subscriber to Healing Circle', message, 'subscribers@healingcirclemassage.com', ['drkathygruver@gmail.com'], fail_silently=False)
+                send_mail('Email Subscriber to from thealternativemedicinecabinet.com', message, 'subscribers@healingcirclemassage.com', ['drkathygruver@gmail.com'], fail_silently=False)
             except:
                 send_mail('Problem with Email Subscriber to Healing Circle', "there is something wrong with the email server" , 'subscribers@healingcirclemassage.com', ['laura@emlprime.com'], fail_silently=False)                
         else:
