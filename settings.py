@@ -86,3 +86,5 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'thealternativemedicinecabinet.content',
 )
+
+GOOGLE_RECAPTCHA_SECRET_KEY = '6LdSZCAUAAAAAIobNKtW8BGJyoyQ7pXnmzI7TO8R'

@@ -1,29 +1,10 @@
 CODES = ['headstart']
+
+function onEmailSubmit() {
+    console.log('something happened with the form submit');
+}
+
 $(document).ready(function () {
-
-	var form_unlocked = false;
-
-	$('#email_form').on('mouseenter', function(event) {
-		form_unlocked = true;
-	});
-	$('#email_form').on('mouseover', function(event) {
-		form_unlocked = true;
-	});
-	$('#email_form').on('tap', function(event) {
-		form_unlocked = true;
-	});
-	$('#email_form').click(function(event) {
-		form_unlocked = true;
-	});
-
-        $('#submit_email').click(function(event){
-	    if (!form_unlocked) {
-       	        event.preventDefault();
-	    }
-            if ($('.botpot').val()){
-	        event.preventDefault();
-	    }
-	});
 	$('.toggle_target').hide();
 	$('.toggle_close').click(function(event){
 		$(event.target).parent().parent().parent().find('.toggle').click();
