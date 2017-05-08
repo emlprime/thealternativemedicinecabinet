@@ -4,7 +4,7 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-     ('Peter', 'peter@emlprime.com'),
+     ('Laura', 'laura@emlprime.com'),
 )
 
 import os
